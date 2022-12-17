@@ -1,5 +1,5 @@
 body {
-    background-color: powderblue;
+    background-color: rgb(182, 219, 250);
     font-family: 'Source Sans Pro', sans-serif;
     min-height: 100vh;
     margin: 0; padding: 0;
@@ -7,14 +7,48 @@ body {
     flex-direction: column;
     justify-content: space-between;
 }
+
 h1 {
     color: blue;
 }
-p {
-    color: red;
-}
+
 .nav-list {
     display: flex;
     justify-content: flex-end;
     align-items: center;
   }
+
+  nav {
+    float: right;
+  }
+
+  nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  nav li {
+    display: inline-block; /*один из способов разместить элементы в строку*/
+  }
+
+  .container {
+    width: 100%;
+    max-width: 1024px;
+    padding: 15px;
+    margin: 0 auto;
+    display: inline-block;
+      }
+
+  .container div {
+    
+    margin-bottom: 15px;
+  }
+  .col-1-3 {
+    float: left;  
+  }
+
+.foot-1{float: left;  }
+.foot-2{float: center;  }
+.foot-3{float: right;  }
+
